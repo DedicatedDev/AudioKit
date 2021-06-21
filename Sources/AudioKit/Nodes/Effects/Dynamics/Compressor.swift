@@ -7,7 +7,7 @@ import AVFoundation
 ///
 public class Compressor: Node {
 
-    fileprivate let effectAU = AVAudioUnitEffect(appleEffect: kAudioUnitSubType_DynamicsProcessor)
+    fileprivate let effectAU = AVAudioUnitEffect(audioComponentDescription: .init(appleEffect: kAudioUnitSubType_DynamicsProcessor))
 
     let input: Node
 
