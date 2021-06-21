@@ -112,7 +112,7 @@ public class Compressor: Node {
         masterGain: AUValue = masterGainDef.defaultValue) {
         self.input = input
 
-        associateParams(with: effectAU)
+        setupParameters()
 
         self.threshold = threshold
         self.headRoom = headRoom
