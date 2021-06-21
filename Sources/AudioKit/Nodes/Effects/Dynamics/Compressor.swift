@@ -3,7 +3,6 @@
 
 import AVFoundation
 import AudioKit
-import AudioKitEX
 import CDunneAudioKit
 /// AudioKit version of Apple's Compressor Audio Unit
 ///
